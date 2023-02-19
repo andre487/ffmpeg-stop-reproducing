@@ -10,7 +10,7 @@ This is an example for [the question on SO](https://stackoverflow.com/questions/
     ```
 2. Run RTMP server (in another terminal):
     ```bash
-   ./run-rtmp-server.shz
+   ./run-rtmp-server.sh
     ```
 3. Run server:
    ```bash
