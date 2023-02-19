@@ -140,7 +140,7 @@ class StreamingWorker:
             return
 
         self._logger.info('Stopping FFMPEG')
-        self._ffmpeg_process.stdin.write(b'q')
+        self._ffmpeg_process.stdin.write('q'.encode('GBK'))
         self._ffmpeg_process.stdin.flush()
 
         self._streaming_thread.join()
